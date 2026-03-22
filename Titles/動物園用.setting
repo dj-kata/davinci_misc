@@ -1,451 +1,599 @@
 {
 	Tools = ordered() {
-		["一括入力111"] = MacroOperator {
+		["設定用"] = MacroOperator {
 			Inputs = ordered() {
 				Input1 = InstanceInput {
+					SourceOp = "日付",
+					Source = "StyledText",
+					Name = "日付",
+				},
+				Input2 = InstanceInput {
+					SourceOp = "日付",
+					Source = "Font",
+					ControlGroup = 2,
+				},
+				Input3 = InstanceInput {
+					SourceOp = "日付",
+					Source = "Style",
+					ControlGroup = 2,
+				},
+				Input4 = InstanceInput {
+					SourceOp = "日付",
+					Source = "Red1Clone",
+					Name = "カラー",
+					ControlGroup = 3,
+					Default = 1,
+				},
+				Input5 = InstanceInput {
+					SourceOp = "日付",
+					Source = "Size",
+					Default = 0.0354,
+				},
+				Input6 = InstanceInput {
+					SourceOp = "日付",
+					Source = "LayoutType",
+					Name = "種類",
+				},
+				Input7 = InstanceInput {
+					SourceOp = "日付",
+					Source = "Center",
+					Name = "センター",
+				},
+				Input8 = InstanceInput {
 					SourceOp = "日付",
 					Source = "ShadingElements",
 					Default = 1,
 				},
-				Input2 = InstanceInput {
+				Input9 = InstanceInput {
 					SourceOp = "日付",
 					Source = "SelectElement",
 					Default = 1,
 				},
-				Input3 = InstanceInput {
+				Input10 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Select",
 					Default = 1,
 				},
-				Input4 = InstanceInput {
+				Input11 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Name1",
 					Name = "名前",
 					DefaultText = "White Solid Fill",
 				},
-				Input5 = InstanceInput {
+				Input12 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Enabled1",
 					Name = "有効",
 					Default = 1,
 				},
-				Input6 = InstanceInput {
+				Input13 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Name2",
 					Name = "名前",
 					DefaultText = "Red Outline",
 				},
-				Input7 = InstanceInput {
+				Input14 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Enabled2",
 					Name = "有効",
 					Default = 1,
 				},
-				Input8 = InstanceInput {
+				Input15 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Name3",
 					Name = "名前",
 					DefaultText = "Black Shadow",
 				},
-				Input9 = InstanceInput {
+				Input16 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Enabled3",
 					Name = "有効",
 					Default = 0,
 				},
-				Input10 = InstanceInput {
+				Input17 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Thickness1",
 					Name = "太さ",
 					Default = 0.02,
 				},
-				Input11 = InstanceInput {
+				Input18 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Red1",
 					Name = "カラー",
-					ControlGroup = 11,
+					ControlGroup = 17,
 					Default = 1,
 				},
-				Input12 = InstanceInput {
+				Input19 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Green1",
-					ControlGroup = 11,
+					ControlGroup = 17,
 					Default = 1,
 				},
-				Input13 = InstanceInput {
+				Input20 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Blue1",
-					ControlGroup = 11,
+					ControlGroup = 17,
 					Default = 1,
 				},
-				Input14 = InstanceInput {
+				Input21 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Alpha1",
-					ControlGroup = 11,
+					ControlGroup = 17,
 					Default = 1,
 				},
-				Input15 = InstanceInput {
+				Input22 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Thickness2",
 					Name = "太さ",
 					Default = 0.1,
 				},
-				Input16 = InstanceInput {
+				Input23 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Red2",
 					Name = "カラー",
-					ControlGroup = 13,
+					ControlGroup = 19,
 					Default = 0,
 				},
-				Input17 = InstanceInput {
+				Input24 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Green2",
-					ControlGroup = 13,
+					ControlGroup = 19,
 					Default = 0,
 				},
-				Input18 = InstanceInput {
+				Input25 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Blue2",
-					ControlGroup = 13,
+					ControlGroup = 19,
 					Default = 0,
 				},
-				Input19 = InstanceInput {
+				Input26 = InstanceInput {
 					SourceOp = "日付",
 					Source = "Alpha2",
-					ControlGroup = 13,
+					ControlGroup = 19,
 					Default = 1,
 				},
-				Input20 = InstanceInput {
+				Input27 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "StyledText",
+					Name = "著作権マーク",
+				},
+				Input28 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "Font",
+					ControlGroup = 21,
+				},
+				Input29 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "Style",
+					ControlGroup = 21,
+				},
+				Input30 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "Red1Clone",
+					Name = "カラー",
+					ControlGroup = 22,
+					Default = 1,
+				},
+				Input31 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "Size",
+					Default = 0.0472,
+				},
+				Input32 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "LayoutType",
+					Name = "種類",
+				},
+				Input33 = InstanceInput {
+					SourceOp = "著作権マーク",
+					Source = "Center",
+					Name = "センター",
+				},
+				Input34 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "ShadingElements",
 					Default = 1,
 				},
-				Input21 = InstanceInput {
+				Input35 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "SelectElement",
 					Default = 1,
 				},
-				Input22 = InstanceInput {
+				Input36 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Select",
 					Default = 1,
 				},
-				Input23 = InstanceInput {
+				Input37 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Name1",
 					Name = "名前",
 					DefaultText = "White Solid Fill",
 				},
-				Input24 = InstanceInput {
+				Input38 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Enabled1",
 					Name = "有効",
 					Default = 1,
 				},
-				Input25 = InstanceInput {
+				Input39 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Name2",
 					Name = "名前",
 					DefaultText = "Red Outline",
 				},
-				Input26 = InstanceInput {
+				Input40 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Enabled2",
 					Name = "有効",
 					Default = 1,
 				},
-				Input27 = InstanceInput {
+				Input41 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Name3",
 					Name = "名前",
 					DefaultText = "Black Shadow",
 				},
-				Input28 = InstanceInput {
+				Input42 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Enabled3",
 					Name = "有効",
 					Default = 0,
 				},
-				Input29 = InstanceInput {
+				Input43 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Thickness1",
 					Name = "太さ",
 					Default = 0.02,
 				},
-				Input30 = InstanceInput {
+				Input44 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Red1",
 					Name = "カラー",
-					ControlGroup = 24,
+					ControlGroup = 36,
 					Default = 1,
 				},
-				Input31 = InstanceInput {
+				Input45 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Green1",
-					ControlGroup = 24,
+					ControlGroup = 36,
 					Default = 1,
 				},
-				Input32 = InstanceInput {
+				Input46 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Blue1",
-					ControlGroup = 24,
+					ControlGroup = 36,
 					Default = 1,
 				},
-				Input33 = InstanceInput {
+				Input47 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Alpha1",
-					ControlGroup = 24,
+					ControlGroup = 36,
 					Default = 1,
 				},
-				Input34 = InstanceInput {
+				Input48 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Thickness2",
 					Name = "太さ",
 					Default = 0.0976,
 				},
-				Input35 = InstanceInput {
+				Input49 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Red2",
 					Name = "カラー",
-					ControlGroup = 26,
+					ControlGroup = 38,
 					Default = 0,
 				},
-				Input36 = InstanceInput {
+				Input50 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Green2",
-					ControlGroup = 26,
+					ControlGroup = 38,
 					Default = 0,
 				},
-				Input37 = InstanceInput {
+				Input51 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Blue2",
-					ControlGroup = 26,
+					ControlGroup = 38,
 					Default = 0,
 				},
-				Input38 = InstanceInput {
+				Input52 = InstanceInput {
 					SourceOp = "著作権マーク",
 					Source = "Alpha2",
-					ControlGroup = 26,
+					ControlGroup = 38,
 					Default = 1,
 				},
-				Input39 = InstanceInput {
+				Input53 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "StyledText",
+					Name = "動物園名",
+				},
+				Input54 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "Font",
+					ControlGroup = 40,
+				},
+				Input55 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "Style",
+					ControlGroup = 40,
+				},
+				Input56 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "Red1Clone",
+					Name = "カラー",
+					ControlGroup = 41,
+					Default = 1,
+				},
+				Input57 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "Size",
+					Default = 0.0354,
+				},
+				Input58 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "LayoutType",
+					Name = "種類",
+				},
+				Input59 = InstanceInput {
+					SourceOp = "動物園名",
+					Source = "Center",
+					Name = "センター",
+				},
+				Input60 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "ShadingElements",
 					Default = 1,
 				},
-				Input40 = InstanceInput {
+				Input61 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "SelectElement",
 					Default = 1,
 				},
-				Input41 = InstanceInput {
+				Input62 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Select",
 					Default = 1,
 				},
-				Input42 = InstanceInput {
+				Input63 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Name1",
 					Name = "名前",
 					DefaultText = "White Solid Fill",
 				},
-				Input43 = InstanceInput {
+				Input64 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Enabled1",
 					Name = "有効",
 					Default = 1,
 				},
-				Input44 = InstanceInput {
+				Input65 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Name2",
 					Name = "名前",
 					DefaultText = "Red Outline",
 				},
-				Input45 = InstanceInput {
+				Input66 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Enabled2",
 					Name = "有効",
 					Default = 1,
 				},
-				Input46 = InstanceInput {
+				Input67 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Name3",
 					Name = "名前",
 					DefaultText = "Black Shadow",
 				},
-				Input47 = InstanceInput {
+				Input68 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Thickness1",
 					Name = "太さ",
 					Default = 0.02,
 				},
-				Input48 = InstanceInput {
+				Input69 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Red1",
 					Name = "カラー",
-					ControlGroup = 36,
+					ControlGroup = 54,
 					Default = 1,
 				},
-				Input49 = InstanceInput {
+				Input70 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Green1",
-					ControlGroup = 36,
+					ControlGroup = 54,
 					Default = 1,
 				},
-				Input50 = InstanceInput {
+				Input71 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Blue1",
-					ControlGroup = 36,
+					ControlGroup = 54,
 					Default = 1,
 				},
-				Input51 = InstanceInput {
+				Input72 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Alpha1",
-					ControlGroup = 36,
+					ControlGroup = 54,
 					Default = 1,
 				},
-				Input52 = InstanceInput {
+				Input73 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Thickness2",
 					Name = "太さ",
 					Default = 0.1,
 				},
-				Input53 = InstanceInput {
+				Input74 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Red2",
 					Name = "カラー",
-					ControlGroup = 38,
+					ControlGroup = 56,
 					Default = 0,
 				},
-				Input54 = InstanceInput {
+				Input75 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Green2",
-					ControlGroup = 38,
+					ControlGroup = 56,
 					Default = 0,
 				},
-				Input55 = InstanceInput {
+				Input76 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Blue2",
-					ControlGroup = 38,
+					ControlGroup = 56,
 					Default = 0,
 				},
-				Input56 = InstanceInput {
+				Input77 = InstanceInput {
 					SourceOp = "動物園名",
 					Source = "Alpha2",
-					ControlGroup = 38,
+					ControlGroup = 56,
 					Default = 1,
 				},
-				Input57 = InstanceInput {
+				Input78 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "StyledText",
+					Name = "動画の内容",
+				},
+				Input79 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "Font",
+					ControlGroup = 58,
+				},
+				Input80 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "Style",
+					ControlGroup = 58,
+				},
+				Input81 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "Red1Clone",
+					Name = "カラー",
+					ControlGroup = 59,
+					Default = 1,
+				},
+				Input82 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "Size",
+					Default = 0.0551,
+				},
+				Input83 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "LayoutType",
+					Name = "種類",
+				},
+				Input84 = InstanceInput {
+					SourceOp = "動画の内容",
+					Source = "Center",
+					Name = "センター",
+				},
+				Input85 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "ShadingElements",
 					Default = 1,
 				},
-				Input58 = InstanceInput {
+				Input86 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "SelectElement",
 					Default = 1,
 				},
-				Input59 = InstanceInput {
+				Input87 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Select",
 					Default = 1,
 				},
-				Input60 = InstanceInput {
+				Input88 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Name1",
 					Name = "名前",
 					DefaultText = "White Solid Fill",
 				},
-				Input61 = InstanceInput {
+				Input89 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Enabled1",
 					Name = "有効",
 					Default = 1,
 				},
-				Input62 = InstanceInput {
+				Input90 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Name2",
 					Name = "名前",
 					DefaultText = "Red Outline",
 				},
-				Input63 = InstanceInput {
+				Input91 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Enabled2",
 					Name = "有効",
 					Default = 1,
 				},
-				Input64 = InstanceInput {
+				Input92 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Name3",
 					Name = "名前",
 					DefaultText = "Black Shadow",
 				},
-				Input65 = InstanceInput {
+				Input93 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Enabled3",
 					Name = "有効",
 					Default = 0,
 				},
-				Input66 = InstanceInput {
+				Input94 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Thickness1",
 					Name = "太さ",
 					Default = 0.02,
 				},
-				Input67 = InstanceInput {
+				Input95 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Red1",
 					Name = "カラー",
-					ControlGroup = 49,
+					ControlGroup = 73,
 					Default = 1,
 				},
-				Input68 = InstanceInput {
+				Input96 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Green1",
-					ControlGroup = 49,
+					ControlGroup = 73,
 					Default = 1,
 				},
-				Input69 = InstanceInput {
+				Input97 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Blue1",
-					ControlGroup = 49,
+					ControlGroup = 73,
 					Default = 1,
 				},
-				Input70 = InstanceInput {
+				Input98 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Alpha1",
-					ControlGroup = 49,
+					ControlGroup = 73,
 					Default = 1,
 				},
-				Input71 = InstanceInput {
+				Input99 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Thickness2",
 					Name = "太さ",
 					Default = 0.1197,
 				},
-				Input72 = InstanceInput {
+				Input100 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Red2",
 					Name = "カラー",
-					ControlGroup = 51,
+					ControlGroup = 75,
 					Default = 0,
 				},
-				Input73 = InstanceInput {
+				Input101 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Green2",
-					ControlGroup = 51,
+					ControlGroup = 75,
 					Default = 0,
 				},
-				Input74 = InstanceInput {
+				Input102 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Blue2",
-					ControlGroup = 51,
+					ControlGroup = 75,
 					Default = 0,
 				},
-				Input75 = InstanceInput {
+				Input103 = InstanceInput {
 					SourceOp = "動画の内容",
 					Source = "Alpha2",
-					ControlGroup = 51,
+					ControlGroup = 75,
 					Default = 1,
 				}
 			},
@@ -717,5 +865,5 @@
 			},
 		}
 	},
-	ActiveTool = "一括入力111"
+	ActiveTool = "設定用"
 }
